@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     /* padding: 50px 50px; */
@@ -11,6 +15,7 @@ body {
 
 .flex-1 {
     width: 100%;
+    margin-bottom: 21px;
 }
 
 .border {
@@ -18,24 +23,97 @@ body {
     width: 35%;
 }
 
+h1 {
+    height: 168.5px;
+    width: 549px;
+    /* margin: 29px 93px 64.1px 126px; */
+    font-size: 34.5px;
+    line-height: 48px;
+    /* letter-spacing: -0.29; */
+    margin-top: 27px;
+}
+
 .flex-2 {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    /* margin-bottom: 47px; */
 }
 
-h2,
-h3 {
-    font-size: 1.2rem;
-    line-height: 1.09;
+.flex-2-1 {
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 23px;
+    line-height: 1.17;
     letter-spacing: -0.14px;
-    margin: 7px 0px 0px;
+    margin-bottom: 20px;
     font-weight: 300px;
+    height: 14px;
 }
 
-span {
-    letter-spacing: 1px;
+.content {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.33;
+
 }
+
+.flex-2-2 {
+    margin-bottom: 3px;
+}
+
+h3 {
+    font-size: 23px;
+    height: 14px;
+    width: 514px;
+    /* font-weight: 300; */
+    line-height: 24px;
+    letter-spacing: -0.14px;
+    margin-bottom: 48px;
+}
+
+.content-1 {
+    font-size: 17.2px;
+    font-weight: 300;
+    line-height: 1.33;
+}
+
+.flex-2-3 {
+    margin-bottom: -14px;
+}
+
+h4 {
+    font-size: 22.8px;
+    margin-bottom: 7px;
+}
+
+.content-2 {
+    font-size: 17.3px;
+    font-weight: 300;
+    line-height: 1.33;
+}
+
+h5 {
+    font-size: 23px;
+    line-height: 1.33;
+    margin-bottom: 5px;
+}
+
+.content-3 {
+    font-size: 17.4px;
+    line-height: 1.33;
+    font-weight: 300;
+}
+
+/* .content {
+    margin-bottom: 47px;
+} */
+
+/* span {
+    letter-spacing: 1px;
+} */
 
 /* .flex-2-1 {
     width: 25%;
@@ -54,9 +132,9 @@ span {
 } */
 
 @media only screen and (min-width: 1024px) {
-    .body {
+    /* .body {
         padding: 29px 102px 1px;
-    }
+    } */
 
     .Desktop-768px {
         display: flex;
@@ -65,11 +143,20 @@ span {
 
     .flex-1 {
         width: 100%;
+        margin-bottom: -24px;
     }
 
     .border {
         border-top: 2px solid orange;
-        width: 23%;
+        width: 28%;
+    }
+
+    h1 {
+        font-size: 36x;
+        line-height: 1.33;
+        width: 822px;
+        margin-top: 40px;
+        letter-spacing: -0.19px;
     }
 
     .flex-2 {
@@ -81,33 +168,41 @@ span {
     .flex-2-1 {
         width: 50%;
         font-size: 18px;
+        padding-right: 20px;
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 24px;
         line-height: 1.09;
-        letter-spacing: -0.14px;
+        letter-spacing: -0.19px;
         margin: 7px 0px 0px;
         /* font-weight: 300px; */
         width: 370px;
         height: 40px;
     }
 
-    h3 {
-        font-size: 1.2rem;
-        line-height: 1.09;
+    .content {
+        font-size: 17px;
+        line-height: 1.33;
+        font-weight: 300;
         letter-spacing: -0.14px;
-        margin: 7px 0px 0px;
-        /* font-weight: 300px; */
-        /* width: 370px; */
-        height: 60px;
-        padding: 10px 10px;
-
     }
 
-    .test {
-        height: 60px;
-        padding: 10px 10px;
+    h3 {
+        font-size: 24px;
+        line-height: 1.09;
+        letter-spacing: -0.19px;
+        margin: 0px;
+        /* font-weight: 300px; */
+        /* width: 370px; */
+        height: 80px;
+        /* padding: 10px 10px; */
+    }
+
+    .content-1 {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.33;
     }
 
     .flex-2-2 {
@@ -117,10 +212,42 @@ span {
 
     .flex-2-3 {
         width: 50%;
+        padding-right: 20px;
+    }
+
+    h4 {
+        font-size: 24px;
+        margin-top: 11px;
+        line-height: 1.33;
+        letter-spacing: -0.19px;
+        height: 62px;
+    }
+
+    .content-2 {
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.14px;
+        font-weight: 300;
     }
 
     .flex-2-4 {
         width: 50%;
+        padding-right: 20px;
+    }
+
+    h5 {
+        margin: 11px;
+        font-size: 24px;
+        line-height: 1.33;
+        letter-spacing: -0.19px;
+        height: 62px;
+    }
+
+    .content-3 {
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.14px;
+        font-weight: 300;
     }
 }
 
@@ -131,14 +258,20 @@ span {
     }
 
     .flex-1 {
-        width: 50%;
-        font-size: 18px;
-        /* background: red; */
+        width: 43.5%;
     }
 
     .border {
         border-top: 2px solid orange;
-        width: 27%;
+        width: 32%;
+    }
+
+    h1 {
+        font-size: 36px;
+        padding-right: 380px;
+        line-height: 1.33;
+        letter-spacing: -0.29px;
+        margin-top: 30px;
     }
 
     .flex-2 {
@@ -150,18 +283,100 @@ span {
 
     .flex-2-1 {
         width: 50%;
+        padding-right: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+        /* margin-bottom: -6px; */
+        height: 33px;
+        /* font-weight: 600; */
+        line-height: 1.17;
+        /* margin: 0px 0px 7px; */
+        letter-spacing: -0.19px;
+    }
+
+    .content {
+        /* max-width: 273px; */
+        display: block;
+        font-size: 18px;
+        line-height: 1.35;
+        margin-top: 5px;
+        letter-spacing: -0.14px;
     }
 
     .flex-2-2 {
         width: 50%;
+        padding: 3px 0px 0px 72px;
+    }
+
+    h3 {
+        width: 273px;
+        height: 89px;
+        line-height: 28px;
+        /* font-weight: 600; */
+        letter-spacing: -0.19px;
+        margin: 0px 0px 7px;
+    }
+
+    .content-1 {
+        font-size: 18px;
+        /* line-height: 1.35; */
+        /* margin: 7px 0px 0px; */
+        font-weight: 300;
+        line-height: 1.33;
+        width: 273px;
+        /* height: 245px; */
+        letter-spacing: -0.14px;
+        /* margin-right: 145.5px; */
+        display: block;
     }
 
     .flex-2-3 {
         width: 50%;
+        /* padding-right: 30px; */
+    }
+
+    h4 {
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.19px;
+        font-weight: 600;
+        /* margin: 7px 0px 0px; */
+    }
+
+    .content-2 {
+        font-size: 18px;
+        line-height: 1.33;
+        font-weight: 300;
+        margin: 7px 0px 0px;
+        letter-spacing: -0.14px;
+        display: block;
     }
 
     .flex-2-4 {
         width: 50%;
+        padding-left: 69px;
+        margin-top: 12px;
+    }
+
+    h5 {
+        font-size: 24px;
+        font-weight: 600;
+        width: 310px;
+        margin: 0px;
+        height: 62px;
+    }
+
+    .content-3 {
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.14px;
+        font-weight: 300;
+        width: 270px;
+        height: 249px;
+        display: block;
+        margin-top: 5px;
     }
 }
 
@@ -196,11 +411,194 @@ span {
         height: 100px;
     }
 
-    span {
+    /* span {
         letter-spacing: 1px;
         font-size: 1.75rem;
         padding: 35px;
+    } */
+
+    .flex-2-1 {
+        width: 50%;
     }
+
+    .flex-2-2 {
+        width: 50%;
+    }
+
+    .flex-2-3 {
+        width: 50%;
+    }
+
+    .flex-2-4 {
+        width: 50%;
+    }
+
+}
+@media only screen and (min-width: 1440px) {
+    .Desktop-768px {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex-1 {
+        width: 43.5%;
+    }
+
+    .border {
+        border-top: 2px solid orange;
+        width: 32%;
+    }
+
+    h1 {
+        font-size: 36px;
+        padding-right: 380px;
+        line-height: 1.33;
+        letter-spacing: -0.29px;
+        margin-top: 30px;
+    }
+
+    .flex-2 {
+        display: flex;
+        width: 50%;
+        flex-wrap: wrap;
+        /* background: blue; */
+    }
+
+    .flex-2-1 {
+        width: 50%;
+        padding-right: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+        /* margin-bottom: -6px; */
+        height: 33px;
+        /* font-weight: 600; */
+        line-height: 1.17;
+        /* margin: 0px 0px 7px; */
+        letter-spacing: -0.19px;
+    }
+
+    .content {
+        /* max-width: 273px; */
+        display: block;
+        font-size: 18px;
+        line-height: 1.35;
+        margin-top: 5px;
+        letter-spacing: -0.14px;
+    }
+
+    .flex-2-2 {
+        width: 50%;
+        padding: 3px 0px 0px 72px;
+    }
+
+    h3 {
+        width: 273px;
+        height: 89px;
+        line-height: 28px;
+        /* font-weight: 600; */
+        letter-spacing: -0.19px;
+        margin: 0px 0px 7px;
+    }
+
+    .content-1 {
+        font-size: 18px;
+        /* line-height: 1.35; */
+        /* margin: 7px 0px 0px; */
+        font-weight: 300;
+        line-height: 1.33;
+        width: 273px;
+        /* height: 245px; */
+        letter-spacing: -0.14px;
+        /* margin-right: 145.5px; */
+        display: block;
+    }
+
+    .flex-2-3 {
+        width: 50%;
+        /* padding-right: 30px; */
+    }
+
+    h4 {
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.19px;
+        font-weight: 600;
+        /* margin: 7px 0px 0px; */
+    }
+
+    .content-2 {
+        font-size: 18px;
+        line-height: 1.33;
+        font-weight: 300;
+        margin: 7px 0px 0px;
+        letter-spacing: -0.14px;
+        display: block;
+    }
+
+    .flex-2-4 {
+        width: 50%;
+        padding-left: 69px;
+        margin-top: 12px;
+    }
+
+    h5 {
+        font-size: 24px;
+        font-weight: 600;
+        width: 310px;
+        margin: 0px;
+        height: 62px;
+    }
+
+    .content-3 {
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.14px;
+        font-weight: 300;
+        width: 270px;
+        height: 249px;
+        display: block;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .Desktop-768px {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex-1 {
+        width: 50%;
+        /* background: red; */
+        font-size: 20px;
+    }
+
+    .border {
+        border-top: 2px solid orange;
+        width: 27%;
+    }
+
+    .flex-2 {
+        display: flex;
+        width: 50%;
+        flex-wrap: wrap;
+        /* background: blue; */
+    }
+
+    h2,
+    h3 {
+        font-size: 2rem;
+        letter-spacing: 1px;
+        height: 100px;
+    }
+
+    /* span {
+        letter-spacing: 1px;
+        font-size: 1.75rem;
+        padding: 35px;
+    } */
 
     .flex-2-1 {
         width: 50%;
