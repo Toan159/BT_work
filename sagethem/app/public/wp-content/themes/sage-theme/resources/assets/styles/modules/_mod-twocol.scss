@@ -16,7 +16,7 @@
     }
 
     h3 {
-        @apply text-2xl  pr-40 h-32;
+        @apply text-2xl pr-40 h-32;
     }
 
     h4 {
@@ -24,7 +24,7 @@
     }
 
     h5 {
-        @apply text-2xl  pr-40 h-32;
+        @apply text-2xl pr-40 h-32;
     }
 
     .article {
@@ -60,7 +60,7 @@
     }
 
     h4 {
-        @apply text-2xl h-16 font-bold;
+        @apply text-2xl h-32 font-bold pr-50;
     }
 
     h5 {
@@ -70,6 +70,62 @@
     .article {
         @apply w-11/12 text-lg pr-28;
     }
+
+    .text {
+        @apply text-4xl font-bold tracking-tight;
+    }
+
+    .text-1 {
+        @apply text-xl pr-100 font-bold;
+    }
+
+    .conten-slick-demo {
+        @apply pr-80 pl-56 pt-54 pb-50 tracking-tight;
+        @apply border-solid border-2 rounded-3xl bg-white;
+        // border-white
+    }
+
+    // .conten-slick-demo-1 {
+    //     @apply pr-80 pl-56 pt-54 pb-50 tracking-tight;
+    //     @apply border-solid border-2 rounded-3xl bg-white;
+    //     // border-white
+    // }
+
+    .slick-prev {
+        &::before {
+            color: orangered;
+            font-size: 25px;
+            // float: bottom;
+        }
+    }
+
+    .slick-next {
+        &::before {
+            color: orangered;
+            font-size: 25px;
+        }
+    }
+
+    .Our-Open {
+        @apply mt-81;
+    }
+
+    .content-our-open {
+        @apply mt-40 text-4xl font-bold;
+    }
+
+    .content-our-open-1 {
+        @apply flex mt-21 ;
+    }
+
+    .content-our-open-p {
+        @apply flex-1 mr-25 text-lg tracking-wide font-light w-80 ; // 1em = 16px   
+    }
+
+    .content-our-open-image {
+        @apply flex-1;
+    }
+
 }
 
 @media (min-width: 1920px) {
@@ -78,10 +134,11 @@
     }
 
     .nav-1 {
-        @apply flex-1 ;
+        @apply flex-1;
     }
+
     .nav-1-1 {
-        @apply flex-1 ;
+        @apply flex-1;
     }
 
     // .nav-2-1 {
@@ -101,11 +158,11 @@
     }
 
     h3 {
-        @apply text-2xl  pr-40 h-40;
+        @apply text-2xl pr-40 h-40;
     }
 
     h4 {
-        @apply text-2xl h-24 font-bold;
+        @apply text-2xl h-24 font-bold p-0;
     }
 
     h5 {
